@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add your custom CSS styles here */
+        body{
+            background-color: rgba(0, 0, 0, 1);
+            color: white;
+
+        nav{
+            background-color: rgb(35, 7, 7);
+        }
+        a{
+            color: white;
+
+        }
+        }
+        .banner{
+            max-width: 100%;
+            height: 350px;
+            background-image: url("banner.jpg");
+            background-size:cover;
+            background-position:center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .section{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+        
+        margin-top: 100px;
+        }
+        ul{
+            font-size: 14px;
+        }
+        .content{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0em;
+           
+        }
+      
+      .btn1:hover {
+        background-color: #ddd;
+      }
+      input{
+        background-color: black;
+      }
+      /* Optional: Adjust form-control styles for more consistent appearance */
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Optional: Adjust label styles for consistent alignment */
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Section -->
+    <div>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#" style="margin-left: 5%;font-weight: 400;font-style: italic;font-family: Leckerli One;">Spdc</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav" style="margin-right:5%;">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">what we do?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Our products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- content section -->
+    <div class="section">
+        <div class="row">
+            <div class="col-lg-6" style="margin-top: 60px;">
+                <p style="font-size: 29px;font-weight: 600;">Welcome to space Power developer Community</p>
+                <p>CodeCrafters: Crafting Tomorrow's Solutions Today</p>
+                <button type="button" class="btn" style="color: black;border-radius: 50px;background: #fff;font-weight: 700;font-size: 14px;padding: 10px 24px 10px 24px;">Job openings</button>
+            </div>
+            <div class="col-lg-6">
+                <img src="static/images/roundedImgae.svg" alt="img" style="width: 400px;float: right;">    
+            </div>
+        </div>
+        <div class="row" style="margin-top: 100px;">
+            <div class="col-lg-6">
+                <img src="static/images/SPDC.svg" alt="" style="width: 400px;">
+            </div>
+            
+            <div class="col-lg-6" style="border: 1px solid grey; border-radius: 65px;">
+                <div class="div" style="border: 1px solid rgb(15, 8, 8);border-radius: 65px; background-color: rgba(255, 255, 255, 0.5);backdrop-filter: blur(10px);">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start; padding: 20px;">
+                        <img src="static/images/star.svg" alt="" style="width: 40px;">
+                        <p class="content">We create custom software, websites, and mobile apps to meet your unique needs. From concept to launch, we're your digital solutions partner, driving innovation and delivering results.</p>
+                        <button type="button" class="btn" style="color: black; border-radius: 50px; background: #fff; font-weight: 700; font-size: 14px; padding: 10px 24px;">More info</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row" style="margin-top: 200px;">
+            <img src="static/images/Rectangle 28.png" alt="" style="width: 950px;">
+            <div class="product" style="position: relative;bottom: 478px;">
+                <img src="static/images/Group 21.png" alt=""  style="width: 950px;">
+            </div>
+        </div> 
+        <div class="container" style="margin-top:-350px;">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 style="text-align: center;">Contact Us <img src="static/images/star.svg" alt="" style="width: 40px;"></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ex: John">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" placeholder="jishnu@example.com">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" placeholder="Lorem ipsum"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button type="button" class="btn" style="color: black; border-radius: 50px; background: #fff; font-weight: 700; font-size: 14px;">Submit</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
